@@ -1,0 +1,60 @@
+.container{
+margin: 100px 170px;
+
+}
+.container hr{
+    height: 3px;
+    background-color: whitesmoke;
+    border: 0;
+}
+.heading{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+.myproducts{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.myproducts img{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+.myproducts i{
+    width: 16px;
+    margin: 0px 40px;
+    cursor: pointer;
+
+}
+.myproducts button{
+    background-color: rgb(86, 86, 246);
+    color: white;
+}
+.down-container{
+    display: flex;
+    margin: 20px 0px;
+    width: 1200px;
+
+}
+.downheading{
+    
+    display: flex;
+    background: rgb(75, 75, 239);
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right:200px ;
+    gap:40px;
+}
+.downheading p{
+    font-size: 25px;
+}
